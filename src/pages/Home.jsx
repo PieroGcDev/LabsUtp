@@ -5,7 +5,16 @@ function Home() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-start pt-6 px-4 text-center">
-      <h1 className="text-3xl font-bold text-[#000000] bg-[#D9D9D9] px-80 py-10 mb-10 whitespace-nowrap">RESERVA DE EQUIPOS DE LABORATORIOS</h1>
+      <div className="relative bg-[#D9D9D9] py-10 mb-10">
+        <img
+          src="/utplogonuevo.png"
+          alt="Logo"
+          className="absolute left-8 top-1/2 transform -translate-y-1/2 w-32 h-12"
+        />
+        <h1 className="text-3xl font-bold text-[#000000] text-center px-80 whitespace-nowrap">
+          RESERVA DE EQUIPOS DE LABORATORIOS
+        </h1>
+      </div>
       <p className="text-lg text-[#000000] mb-12">¡Bienvenido al sistema de reservas de laboratorios! Aquí puedes reservar equipos para tus proyectos finales.</p>
 
       <div className="flex flex-col items-center space-y-10 w-full max-w-xs">

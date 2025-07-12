@@ -4,7 +4,16 @@ function ConsultarSala () {
         <div className="min-h-screen flex flex-col bg-white px-4 py-6 items-center" >
             <form className="w-full max-w-4xl bg-gray-100 rounded-lg shadow-lg">
                 <div className=" bg-white flex flex-col items-center justify-start pt-1.8 px-4 text-center">
-                    <h1 className="text-3xl font-bold text-[#000000] bg-[#D9D9D9] px-80 py-10 mb-10 whitespace-nowrap">RESERVA DE EQUIPOS DE LABORATORIOS</h1>
+                    <div className="relative bg-[#D9D9D9] py-10 mb-10">
+                        <img
+                        src="/utplogonuevo.png"
+                        alt="Logo"
+                        className="absolute left-8 top-1/2 transform -translate-y-1/2 w-32 h-12"
+                        />
+                        <h1 className="text-3xl font-bold text-[#000000] text-center px-80 whitespace-nowrap">
+                        RESERVA DE EQUIPOS DE LABORATORIOS
+                        </h1>
+                    </div>
                     <p className="text-lg text-[#000000] mb-4 space-y-10">CONSULTA EL ESTADO DE TU RESERVA</p>
                  </div>
                 <div>

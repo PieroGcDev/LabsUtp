@@ -2,7 +2,16 @@ import { Link } from "react-router-dom"
 function Ayuda () {
     return (
         <div className="min-h-screen bg-white flex flex-col items-center justify-start pt-6 px-4 text-center">
-            <h1 className="text-3xl font-bold text-[#000000] bg-[#D9D9D9] px-80 py-10 mb-10 whitespace-nowrap">RESERVA DE EQUIPOS DE LABORATORIOS</h1>
+            <div className="relative bg-[#D9D9D9] py-10 mb-10">
+            <img
+              src="/utplogonuevo.png"
+              alt="Logo"
+              className="absolute left-8 top-1/2 transform -translate-y-1/2 w-32 h-12"
+            />
+            <h1 className="text-3xl font-bold text-[#000000] text-center px-80 whitespace-nowrap">
+              RESERVA DE EQUIPOS DE LABORATORIOS
+            </h1>
+          </div>
             <p className="text-lg text-gray-600 mb-6">Ayuda al usuario</p>
                     
             <p className="text-lg text-gray-600 mb-6"> ¡Bienvenido(a) al sistema de reserva de laboratorios! 1. En la pantall de inicio te encontrarás con el botón que te llevará a generar una nueva reserva, otro para consultar tu reserva
