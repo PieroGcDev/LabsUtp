@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function RegistrarSala() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white px-4">
+    <div className="min-h-screen flex flex-col items-center bg-white px-4">
       <form className="w-full max-w-4xl bg-gray-100 p-1.8 rounded-lg shadow-lg">
         <div className=" bg-white flex flex-col items-center justify-start pt-6 px-4 text-center">
           <div className="relative bg-[#D9D9D9] py-10 mb-10">
