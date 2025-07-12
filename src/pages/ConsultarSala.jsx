@@ -1,13 +1,14 @@
 import {Link} from "react-router-dom"
 function ConsultarSala () {
     return (
-        <div className="min-h-screen flex flex-col bg-white px-4 py-6" >
-            <form className="w-full max-w-4xl bg-gray-100 p-8 rounded-lg shadow-lg">
-                <h1 className="text-4xl font-bold text-[#000000] bg-[#D9D9D9] px-64 py-10 mb-10 whitespace-nowrap">RESERVA DE EQUIPOS DE LABORATORIOS</h1>
-                <p className="text-lg text-[#000000] mb-12">Consulta el estado de tu reserva</p>
-
+        <div className="min-h-screen flex flex-col bg-white px-4 py-6 items-center" >
+            <form className="w-full max-w-4xl bg-gray-100 rounded-lg shadow-lg">
+                <div className=" bg-white flex flex-col items-center justify-start pt-1.8 px-4 text-center">
+                    <h1 className="text-3xl font-bold text-[#000000] bg-[#D9D9D9] px-80 py-10 mb-10 whitespace-nowrap">RESERVA DE EQUIPOS DE LABORATORIOS</h1>
+                    <p className="text-lg text-[#000000] mb-4 space-y-10">CONSULTA EL ESTADO DE TU RESERVA</p>
+                 </div>
                 <div>
-                    <label className="block mb-1 font-medium text-gray-700">Ingresa el código de tu reserva</label>
+                    <label className="block mb-1 font-medium text-gray-700">Ingresa el código brindado</label>
                     <input
                     type="text"
                     className="w-full p-2 border border-gray-300 rounded"
